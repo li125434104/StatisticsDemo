@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62330B8D2374066800226A3F /* UIControl+Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 62330B8C2374066800226A3F /* UIControl+Statistics.m */; };
+		62A970892373C777000FB2A1 /* WGlobalUserStatisticsConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62A970882373C777000FB2A1 /* WGlobalUserStatisticsConfig.plist */; };
+		62A9708C2373E12C000FB2A1 /* UserStatisticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A9708B2373E12C000FB2A1 /* UserStatisticsManager.m */; };
+		62D6875A2372A11200F90FB7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D687592372A11200F90FB7 /* HomeViewController.m */; };
+		62D6875D2372A11D00F90FB7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6875C2372A11D00F90FB7 /* DetailViewController.m */; };
+		62D687602372A5EB00F90FB7 /* UIViewController+Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6875F2372A5EB00F90FB7 /* UIViewController+Statistics.m */; };
+		62D687632372C48A00F90FB7 /* HookUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D687622372C48A00F90FB7 /* HookUtility.m */; };
 		62D97B5C23717442005F1FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D97B5B23717442005F1FAA /* AppDelegate.m */; };
-		62D97B5F23717442005F1FAA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D97B5E23717442005F1FAA /* SceneDelegate.m */; };
-		62D97B6223717442005F1FAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D97B6123717442005F1FAA /* ViewController.m */; };
 		62D97B6523717442005F1FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D97B6323717442005F1FAA /* Main.storyboard */; };
 		62D97B672371746B005F1FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D97B662371746B005F1FAA /* Assets.xcassets */; };
 		62D97B6A2371746B005F1FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D97B682371746B005F1FAA /* LaunchScreen.storyboard */; };
@@ -17,13 +22,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62330B8B2374066800226A3F /* UIControl+Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Statistics.h"; sourceTree = "<group>"; };
+		62330B8C2374066800226A3F /* UIControl+Statistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Statistics.m"; sourceTree = "<group>"; };
+		62A970882373C777000FB2A1 /* WGlobalUserStatisticsConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WGlobalUserStatisticsConfig.plist; sourceTree = "<group>"; };
+		62A9708A2373E12C000FB2A1 /* UserStatisticsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserStatisticsManager.h; sourceTree = "<group>"; };
+		62A9708B2373E12C000FB2A1 /* UserStatisticsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserStatisticsManager.m; sourceTree = "<group>"; };
+		62D687582372A11200F90FB7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		62D687592372A11200F90FB7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		62D6875B2372A11D00F90FB7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		62D6875C2372A11D00F90FB7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		62D6875E2372A5EB00F90FB7 /* UIViewController+Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Statistics.h"; sourceTree = "<group>"; };
+		62D6875F2372A5EB00F90FB7 /* UIViewController+Statistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Statistics.m"; sourceTree = "<group>"; };
+		62D687612372C48A00F90FB7 /* HookUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookUtility.h; sourceTree = "<group>"; };
+		62D687622372C48A00F90FB7 /* HookUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookUtility.m; sourceTree = "<group>"; };
 		62D97B5723717442005F1FAA /* AutoLayoutCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D97B5A23717442005F1FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62D97B5B23717442005F1FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		62D97B5D23717442005F1FAA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		62D97B5E23717442005F1FAA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		62D97B6023717442005F1FAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		62D97B6123717442005F1FAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62D97B6423717442005F1FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62D97B662371746B005F1FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62D97B692371746B005F1FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -63,10 +77,19 @@
 			children = (
 				62D97B5A23717442005F1FAA /* AppDelegate.h */,
 				62D97B5B23717442005F1FAA /* AppDelegate.m */,
-				62D97B5D23717442005F1FAA /* SceneDelegate.h */,
-				62D97B5E23717442005F1FAA /* SceneDelegate.m */,
-				62D97B6023717442005F1FAA /* ViewController.h */,
-				62D97B6123717442005F1FAA /* ViewController.m */,
+				62D687582372A11200F90FB7 /* HomeViewController.h */,
+				62D687592372A11200F90FB7 /* HomeViewController.m */,
+				62D6875B2372A11D00F90FB7 /* DetailViewController.h */,
+				62D6875C2372A11D00F90FB7 /* DetailViewController.m */,
+				62D6875E2372A5EB00F90FB7 /* UIViewController+Statistics.h */,
+				62D6875F2372A5EB00F90FB7 /* UIViewController+Statistics.m */,
+				62330B8B2374066800226A3F /* UIControl+Statistics.h */,
+				62330B8C2374066800226A3F /* UIControl+Statistics.m */,
+				62D687612372C48A00F90FB7 /* HookUtility.h */,
+				62D687622372C48A00F90FB7 /* HookUtility.m */,
+				62A9708A2373E12C000FB2A1 /* UserStatisticsManager.h */,
+				62A9708B2373E12C000FB2A1 /* UserStatisticsManager.m */,
+				62A970882373C777000FB2A1 /* WGlobalUserStatisticsConfig.plist */,
 				62D97B6323717442005F1FAA /* Main.storyboard */,
 				62D97B662371746B005F1FAA /* Assets.xcassets */,
 				62D97B682371746B005F1FAA /* LaunchScreen.storyboard */,
@@ -134,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62D97B6A2371746B005F1FAA /* LaunchScreen.storyboard in Resources */,
+				62A970892373C777000FB2A1 /* WGlobalUserStatisticsConfig.plist in Resources */,
 				62D97B672371746B005F1FAA /* Assets.xcassets in Resources */,
 				62D97B6523717442005F1FAA /* Main.storyboard in Resources */,
 			);
@@ -146,10 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62D97B6223717442005F1FAA /* ViewController.m in Sources */,
+				62D687602372A5EB00F90FB7 /* UIViewController+Statistics.m in Sources */,
+				62D6875D2372A11D00F90FB7 /* DetailViewController.m in Sources */,
 				62D97B5C23717442005F1FAA /* AppDelegate.m in Sources */,
+				62D687632372C48A00F90FB7 /* HookUtility.m in Sources */,
 				62D97B6D2371746B005F1FAA /* main.m in Sources */,
-				62D97B5F23717442005F1FAA /* SceneDelegate.m in Sources */,
+				62A9708C2373E12C000FB2A1 /* UserStatisticsManager.m in Sources */,
+				62330B8D2374066800226A3F /* UIControl+Statistics.m in Sources */,
+				62D6875A2372A11200F90FB7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = taishu.AutoLayoutCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +343,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = taishu.AutoLayoutCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -27,6 +27,7 @@
     [self swizzle_sendAction:action to:target forEvent:event];
 }
 
+//添加点击统计
 - (void)insert_action:(SEL)action to:target forEvent:event {
     NSString *eventID = nil;
     if ([[[event allTouches] anyObject] phase] == UITouchPhaseEnded) {
